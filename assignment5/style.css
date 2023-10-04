@@ -1,0 +1,37 @@
+nav
+{
+background-color: rgb(5, 122, 27);
+height: 80px;
+}
+ul 
+{
+    display: flex;
+}
+li
+{
+    list-style-type: none;
+    padding: 20px 20px;
+    font-size: 26px;    
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+li a:hover
+{
+    color: yellow;    
+}
+#dropdown-products
+{
+   display: none;
+    background-color:  rgb(5, 122, 27);
+    padding: 0%;
+    
+}
+#menu-products:hover #dropdown-products
+{
+    display: block;
+    padding: 0%;
+    width: 160px;
+}
