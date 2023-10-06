@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(129, 109, 123);
+      }
+      nav {
+        background-color: rgb(91, 121, 78);
+        height: 70px;
+        margin: 0px;
+      }
+      ul {
+        display: flex;
+      }
+      li {
+        position: relative;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 20px 80px;
+        margin-right: 40px;
+      }
+      a {
+        color: white;
+        font-weight: bold;
+
+        font-size: 24px;
+        text-decoration: none;
+      }
+      a:hover {
+        color: rgb(170, 134, 51);
+      }
+      ul ul {
+        display: none;
+        position: absolute;
+        top: 100;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+      }
+      ul ul li {
+        background-color: rgb(91, 121, 78);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      li:hover > ul {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Services</a>
+          <ul>
+            <li>Mern</li>
+            <li>Python</li>
+            <li>Flutter</li>
+            <li>Digital Marketing</li>
+          </ul>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

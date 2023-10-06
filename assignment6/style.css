@@ -1,0 +1,38 @@
+.wrapper1
+{
+    padding: 30px;
+}
+.demo
+{
+    background-color: rgb(67, 244, 2);
+    display: inline-block;
+    height: auto;
+    width:200px;
+    border: 5px solid grey;
+    border-radius: 1.5rem;
+    padding: 10px;
+    
+}
+.wrapper2 {
+    margin: auto;
+    padding: 30px;
+    display: flex;
+  }
+  .demo1 {
+    background-color: burlywood;
+    width: 700px;
+    border: 10px solid black;
+    border-radius: 1.5rem;
+    padding: 10px;
+  }
+  .demo2 {
+    width: 300px;
+    margin: 0px 20px;
+  }
+  .demo3 {
+    background-color: rgb(211, 117, 150);
+    border: 5px solid gray;
+    margin: 5px;
+    border-radius: 1rem;
+    padding: 10px;
+  }

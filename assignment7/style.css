@@ -1,0 +1,42 @@
+      .container {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        width:900px;
+        grid-template-rows: 300px 300px 300px;
+        column-gap: 20px;
+        row-gap: 20px;
+        
+      }
+      .demo1,
+      .demo2,
+      .demo3,
+      .demo4,
+      .demo5,
+      .demo6,
+      .demo7,
+      .demo8,
+      .demo9 {
+        padding: 10px;
+        text-align: center;
+        background-color: bisque;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+        border: 4px solid rgb(196, 91, 91);
+        border-radius: 1rem;
+        box-shadow: 18px 20px 13px black;
+      }
+      img:hover
+      {
+        opacity: 0.7;
+      }
+      .demo1
+      {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+      }
+   
