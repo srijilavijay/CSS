@@ -17,6 +17,10 @@ img.bird
     left: 0px;
     z-index: 1;
 }
+img.dolphin
+{    
+    display:none;
+}
 p
 {
    color:rgb(125, 123, 123);
@@ -36,17 +40,25 @@ p
     }
     img.bird
     {
+        display: none;
+    }
+
+    img.dolphin
+    {
+        position: absolute;
         max-width: 250px;
         max-height: 200px;
         top:500px;
         left:0px;
         z-index: 1;
+        display:block
     }
     
     p
     {
-        color:rgb(27, 11, 11);
+        color:rgb(209, 12, 12);
         font-size: 20px;
         position: relative;
+        font-style: italic;
      }
 }
